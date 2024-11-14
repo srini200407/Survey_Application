@@ -23,23 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\SurveyApp\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "5,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "370,544,591,638,685,730,775",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "407,586,633,680,725,770,812"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Asus\\.gradle\\caches\\8.9\\transforms\\1b5873fd2e413833490721e0ccf57281\\transformed\\lifecycle-runtime-2.3.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -54,23 +37,6 @@
                         "startOffsets": "5749",
                         "endColumns": "42",
                         "endOffsets": "5787"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\SurveyApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2,3,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "17,74,138,202",
-                        "endColumns": "55,62,62,68",
-                        "endOffsets": "68,132,196,266"
-                    },
-                    "to": {
-                        "startLines": "102,120,121,122",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6102,7159,7222,7285",
-                        "endColumns": "55,62,62,68",
-                        "endOffsets": "6153,7217,7280,7349"
                     }
                 },
                 {
@@ -110,6 +76,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Survey-Application\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "5,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "370,544,591,638,685,730,775",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "407,586,633,680,725,770,812"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Asus\\.gradle\\caches\\8.9\\transforms\\24df8fd6746b8985038d4a20be730860\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -124,6 +107,23 @@
                         "startOffsets": "4699,4823",
                         "endColumns": "53,66",
                         "endOffsets": "4748,4885"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Survey-Application\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2,3,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "17,74,138,202",
+                        "endColumns": "55,62,62,68",
+                        "endOffsets": "68,132,196,266"
+                    },
+                    "to": {
+                        "startLines": "102,120,121,122",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6102,7159,7222,7285",
+                        "endColumns": "55,62,62,68",
+                        "endOffsets": "6153,7217,7280,7349"
                     }
                 },
                 {
@@ -144,7 +144,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\SurveyApp\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Survey-Application\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",

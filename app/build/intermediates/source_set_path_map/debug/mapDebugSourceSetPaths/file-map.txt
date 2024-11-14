@@ -34,9 +34,9 @@ com.example.surveyapplication.app-core-1.7.0-32 C:\Users\Asus\.gradle\caches\8.9
 com.example.surveyapplication.app-profileinstaller-1.2.0-33 C:\Users\Asus\.gradle\caches\8.9\transforms\e91809219d4cd082c3c2079c8a217ff8\transformed\profileinstaller-1.2.0\res
 com.example.surveyapplication.app-startup-runtime-1.1.1-34 C:\Users\Asus\.gradle\caches\8.9\transforms\ef91eff2d6d35ab3b1ecff3ce5bce19a\transformed\startup-runtime-1.1.1\res
 com.example.surveyapplication.app-ui-tooling-1.2.0-35 C:\Users\Asus\.gradle\caches\8.9\transforms\f4f8b1d6045ca4e5ead4b789938e3c4a\transformed\ui-tooling-1.2.0\res
-com.example.surveyapplication.app-resValues-36 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\build\generated\res\resValues\debug
-com.example.surveyapplication.app-packageDebugResources-37 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.surveyapplication.app-packageDebugResources-38 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.surveyapplication.app-debug-39 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.surveyapplication.app-debug-40 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\debug\res
-com.example.surveyapplication.app-main-41 C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\res
+com.example.surveyapplication.app-resValues-36 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\build\generated\res\resValues\debug
+com.example.surveyapplication.app-packageDebugResources-37 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.surveyapplication.app-packageDebugResources-38 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.surveyapplication.app-debug-39 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.surveyapplication.app-debug-40 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\src\debug\res
+com.example.surveyapplication.app-main-41 C:\Users\Asus\AndroidStudioProjects\Survey-Application\app\src\main\res
