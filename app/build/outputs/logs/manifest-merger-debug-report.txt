@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Asus\.gradle\caches\8.9\transforms\8ff43703b2423a01050195039a0d7601\transformed\room-ktx-2.5.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Asus\.gradle\caches\8.9\transforms\44dde58ebed4dce629a6bc5f4aa67dde\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.compose.ui:ui-tooling:1.2.0] C:\Users\Asus\.gradle\caches\8.9\transforms\f4f8b1d6045ca4e5ead4b789938e3c4a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:17:1-29:12
@@ -59,8 +59,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Asus\.g
 	xmlns:android
 		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:5:5-40:19
-INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:5:5-40:19
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:5:5-39:19
+INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:5:5-39:19
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Asus\.gradle\caches\8.9\transforms\44dde58ebed4dce629a6bc5f4aa67dde\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Asus\.gradle\caches\8.9\transforms\44dde58ebed4dce629a6bc5f4aa67dde\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling:1.2.0] C:\Users\Asus\.gradle\caches\8.9\transforms\f4f8b1d6045ca4e5ead4b789938e3c4a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:23:5-27:19
@@ -126,25 +126,23 @@ ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:25:13-42
 activity#com.example.surveyapplication.LoginActivity
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:29:9-39:20
-	android:label
-		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:32:13-45
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:29:9-38:20
 	android:exported
 		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:31:13-36
 	android:theme
-		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:33:13-59
+		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:32:13-59
 	android:name
 		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:30:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml:36:27-74
 uses-sdk
 INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Asus\AndroidStudioProjects\SurveyApp\app\src\main\AndroidManifest.xml
