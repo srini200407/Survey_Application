@@ -13,15 +13,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
+
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.ContextCompat
-import com.example.surveyapplication.ui.theme.SurveyApplicationTheme
+
 
 class RegisterActivity : ComponentActivity() {
     private lateinit var databaseHelper: UserDatabaseHelper
@@ -45,7 +45,9 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
     var error by remember { mutableStateOf("") }
 
     Column(
-        modifier = Modifier.fillMaxSize().background(Color.White),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.White),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -82,7 +84,7 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
 
         TextField(
             value = password,
-            onValueChange = { password = it },
+            onValueChange = { it.apply { password = this } },
             label = { Text("Password") },
             visualTransformation = PasswordVisualTransformation(),
             modifier = Modifier
@@ -132,27 +134,25 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
         Spacer(modifier = Modifier.width(10.dp))
         Spacer(modifier = Modifier.height(10.dp))
 
-        Row() {
-            Text(
-                modifier = Modifier.padding(top = 14.dp), text = "Have an account?"
-            )
-            TextButton(onClick = {
-                context.startActivity(
-                    Intent(
-                        context,
-                        LoginActivity::class.java
-                    )
+        Box {
+            Row {
+                Text(
+                    modifier = Modifier.padding(top = 14.dp), text = "Have an account?"
                 )
-            })
+                TextButton(onClick = {
+                    context.startActivity(
+                        Intent(
+                            context,
+                            LoginActivity::class.java
+                        )
+                    )
+                })
 
-            {
-                Spacer(modifier = Modifier.width(10.dp))
-                Text( color = Color(0xFF25b897),text = "Log in")
+                {
+                    Spacer(modifier = Modifier.width(10.dp))
+                    Text(color = Color(0xFF25b897), text = "Log in")
+                }
             }
         }
     }
-}
-private fun startLoginActivity(context: Context) {
-    val intent = Intent(context, LoginActivity::class.java)
-    ContextCompat.startActivity(context, intent, null)
 }

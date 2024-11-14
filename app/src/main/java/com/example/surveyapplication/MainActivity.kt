@@ -1,7 +1,5 @@
 package com.example.surveyapplication
 
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,10 +13,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.surveyapplication.ui.theme.SurveyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     private lateinit var databaseHelper: SurveyDatabaseHelper
@@ -26,13 +22,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         databaseHelper = SurveyDatabaseHelper(this)
         setContent {
-            FormScreen(this, databaseHelper)
+            databaseHelper.FormScreen()
         }
     }
 }
 
 @Composable
-fun FormScreen(context: Context, databaseHelper: SurveyDatabaseHelper) {
+fun SurveyDatabaseHelper.FormScreen() {
 
     Image(
         painterResource(id = R.drawable.background), contentDescription = "",
@@ -48,10 +44,10 @@ fun FormScreen(context: Context, databaseHelper: SurveyDatabaseHelper) {
     var name by remember { mutableStateOf("") }
     var age by remember { mutableStateOf("") }
     var mobileNumber by remember { mutableStateOf("") }
-    var genderOptions = listOf("Male", "Female", "Other")
+    val genderOptions = listOf("Male", "Female", "Other")
     var selectedGender by remember { mutableStateOf("") }
     var error by remember { mutableStateOf("") }
-    var diabeticsOptions = listOf("Diabetic", "Not Diabetic")
+    val diabeticsOptions = listOf("Diabetic", "Not Diabetic")
     var selectedDiabetics by remember { mutableStateOf("") }
 
     Column(
@@ -125,7 +121,7 @@ fun FormScreen(context: Context, databaseHelper: SurveyDatabaseHelper) {
                     gender = selectedGender,
                     diabetics = selectedDiabetics
                 )
-                databaseHelper.insertSurvey(survey)
+                insertSurvey(survey)
                 error = "Survey Completed"
 
             } else {
