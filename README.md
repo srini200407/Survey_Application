@@ -48,4 +48,4 @@ Open the Android project in Android Studio
 Configure the base URL in API client
 
 Build and run on emulator or physical device
-!("C:\Users\hk472\Pictures\srini..jpg" alt)
+
