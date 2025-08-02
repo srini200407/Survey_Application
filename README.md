@@ -49,4 +49,4 @@ Configure the base URL in API client
 
 Build and run on emulator or physical device
 
-![img alt]("https://raw.githubusercontent.com/srini200407/Survey_Application/fcf0461916af303dc5ca1cc3a2ca78d0a36d9b61/srini..jpg")
+![img_alt]("https://raw.githubusercontent.com/srini200407/Survey_Application/fcf0461916af303dc5ca1cc3a2ca78d0a36d9b61/srini..jpg")
